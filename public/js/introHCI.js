@@ -28,7 +28,7 @@ function addProjectDetails(e) {
 	var idNumber = projectID.substr('project'.length);
 
 	console.log("User clicked on project " + idNumber);
-  URL = "http://localhost:3000/project/" + idNumber
+  URL = "https://lab6-ys.herokuapp.com/project/" + idNumber
   $.get(URL, callBackFn)
 
 }
